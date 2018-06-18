@@ -11,7 +11,7 @@ class LocationViewSet(viewsets.ModelViewSet):
 	"""
 	API endpoint that allows locations to be viewed or edited.
 	"""
-	http_method_names = ['get', 'post', 'head']
+	http_method_names = ['get', 'post',]
 	queryset = Location.objects.all().order_by('-created')
 	serializer_class = LocationSerializer
 	filter_backends = (filters.DjangoFilterBackend,)
