@@ -1,0 +1,10 @@
+.project
+.pydevproject
+*.swp
+*~
+*.pyc
+.DS_Store
+db.sqlite3
+.nfs*
+local.py
+.idea
